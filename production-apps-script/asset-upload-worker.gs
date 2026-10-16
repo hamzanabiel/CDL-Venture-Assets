@@ -2,8 +2,7 @@
  * CDL Venture Asset Upload Worker.
  *
  * This file belongs to the standalone Asset-upload Apps Script project.
- * Keep the disposable feasibility test in asset-upload-feasibility.gs; this worker is invoked by
- * an installed one-minute time trigger and never by the Airtable form.
+ * This worker is invoked by an installed one-minute time trigger and never by the Airtable form.
  */
 
 var VAUP = Object.freeze({

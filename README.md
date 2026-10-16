@@ -25,7 +25,6 @@ Use the same intake script for both form automations when both forms write to th
 production-airtable/asset-upload-intake.js       Airtable form intake
 production-apps-script/asset-upload-worker.gs    Apps Script upload worker
 production-apps-script/appsscript.json           Apps Script manifest
-feasibility/                                      Disposable transfer test
 tests/                                            Local source-contract test
 ```
 
@@ -84,11 +83,9 @@ Set `VAUP_TEST_MODE=true` only in a disposable test project.
 
 The checked-in worker does not implement latest checkboxes or filename renaming. Confirm those behaviors against the deployed worker before documenting them as live.
 
-## Feasibility
+## Transfer evidence
 
-The disposable transfer test passed for a 130,009,096-byte attachment using 4 MiB chunks. It verified byte ranges, refreshed attachment URLs, resumable Drive upload, exact size, destination parent, metadata, and an idempotent rerun.
-
-Run the feasibility script only with disposable Airtable and Drive resources. See [`feasibility/README.md`](feasibility/README.md).
+A disposable transfer test previously passed for a 130,009,096-byte attachment using 4 MiB chunks. It verified byte ranges, refreshed attachment URLs, resumable Drive upload, exact size, destination parent, metadata, and an idempotent rerun. The temporary test harness and fixture details are not part of this production repository.
 
 ## Checks
 

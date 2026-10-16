@@ -5,7 +5,7 @@
   "scripts": {
     "check": "npm run check:airtable && npm run check:apps-script",
     "check:airtable": "node --check --input-type=module < production-airtable/asset-upload-intake.js",
-    "check:apps-script": "node --check < feasibility/asset-upload-feasibility.gs && node --check < production-apps-script/asset-upload-worker.gs",
+    "check:apps-script": "node --check < production-apps-script/asset-upload-worker.gs",
     "test": "node --test tests/*.test.js"
   }
 }

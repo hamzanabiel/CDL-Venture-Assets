@@ -22,5 +22,5 @@ This repository contains the Asset-upload workflow only. The separate Venture Do
 
 - Run `npm test` and `npm run check`.
 - Check that the worker still uses `Venture Folder` as its only destination.
-- Keep the README and feasibility notes aligned with the source.
+- Keep the README and changelog aligned with the source.
 - State what was verified locally and what still requires live verification.
