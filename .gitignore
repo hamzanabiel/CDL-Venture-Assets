@@ -1,0 +1,9 @@
+node_modules/
+.clasp.json
+.env
+.env.*
+*.log
+.DS_Store
+coverage/
+.vscode/
+*.swp
